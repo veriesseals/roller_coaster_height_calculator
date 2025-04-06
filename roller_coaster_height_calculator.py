@@ -39,8 +39,10 @@ if height >= 120:
     # ---------------------------------------------
     if age >= 18:
         print("You are an adult give me $12!")
+    elif age > 12 < 18:
+        print("You are young, so you can play me $7")
     else:
-        print("You are young, I guess you can play me $7")
+        print("You get the childrens price, I guess you can play me $5")
 else:
     print(f"You are {height} cm tall. There is a minimum of 120cm")
     print("Sorry you have to grow taller before you can ride")
